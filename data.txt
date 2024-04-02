@@ -1,0 +1,17 @@
+NOMBRE: y
+DESCRIPCION: w
+CANTIDAD DE INGREDIENTES: 2
+---INGREDIENTES---
+
+r
+
+
+NOMBRE: camarones salados
+DESCRIPCION: camarones a la plancha salados
+CANTIDAD DE INGREDIENTES: 3
+---INGREDIENTES---
+sal
+camarones
+aceite
+
+

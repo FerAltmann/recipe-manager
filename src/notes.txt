@@ -1,0 +1,47 @@
+// Type Nombre = new Type();
+        // Recipe pie = new Recipe();
+
+        // for(tipoObjeto nombreObjeto;nombreObjeto condicion;accion nombreObjeto)
+        // for(int i = 5; i>0 ; i--){
+        //     System.out.println(i);
+        // }
+        //while(condicion){}
+        // int i = 0;
+        // while(i <5){
+        //     System.out.println(i);
+        //     i++;
+        // }
+
+        ArrayList<Ingredient> ingredients = new ArrayList<Ingredient>();
+     
+        // [Ingredient@7ad041f3, Ingredient@251a69d7, Ingredient@7344699f, Ingredient@6b95977, Ingredient@7e9e5f8a]
+
+        //          0                   1                       2                   3                   4
+
+        
+
+        // System.out.println(ingredients.get(2).getInfo());
+
+        // objeto.atributo / objeto.metodo()
+
+        //x   | y | lista1
+
+        //000 | 001 | 002:005
+
+        //005 | 001 | [000,001,002,003]
+
+        // pie.setName("Pie");
+        // pie.setQuantity(5);
+        // pie.setIngredients("Harina\nFruta\nAgua\nAzucar\nMaizena");
+
+        // System.out.println(pie.getRecipeInfo());
+
+        // JOptionPane.showMessageDialog(null,"Hola Mundo");
+
+        int cantidadIngredientes = Integer.parseInt(JOptionPane.showInputDialog("Ingrese la cantidad de ingredientes a agregar"));
+
+        for(int x = 0; x<cantidadIngredientes; x++){
+            Ingredient ingredient = new Ingredient();
+            ingredient.setName(JOptionPane.showInputDialog("Ingrese el nombre del ingrediente"));
+            ingredients.add(ingredient);
+        }
